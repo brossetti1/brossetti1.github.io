@@ -1,0 +1,186 @@
+body{
+  width:100%;
+  height:1400px;
+  background-image: url("sample_background.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+#logo{
+  height:300px;
+  width: 300px;
+  background-image: url("IMG_1441.PNG");
+  background-size:contain;
+  border: 3px solid white;
+  border-radius: 100%;
+  margin: 0px 500px 0px 350px;
+}
+#logo2{
+  height:150px;
+  width:150px;
+  background-image: url("IMG_1441.PNG");
+  background-size: contain;
+  border-radius: 100%;
+  border: 3px solid white;
+  margin: 0px 600px 0px 430px;
+}
+nav{
+  position: fixed;
+  top: 1px;
+  width:100%;
+  height:100px;
+  background-image: url("diamond-plate3.jpg");
+}
+a{
+  color: orange;
+  font-size: 20px;
+}
+nav ul{
+  background-color: black;
+  float: left;
+  width: 100%;
+  height: 50px;
+  margin-top:25px;
+  float: left;
+}
+nav ul li{
+  float: left;
+  padding:10px 0px 0px 15px;
+  margin: 10px 60px 5px 60px;
+
+}
+h1{
+  color: white;
+  font-size: 80px;
+  margin: 300px 30px 0px 220px;
+  text-shadow: 1px 0 black, 0 2px black, 2px 0 black, 0 1px black;
+  float: left;
+}
+iframe{
+  margin: 20px 0px 0px 230px;
+}
+.profile{
+  height: 400px;
+  width: 300px;
+  background-color: black;
+  float: left;
+  margin: 25px 25px 25px 25px;
+  color: white;
+  font-size: 25px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.enlarge{
+  height:600px;
+  width: 500px;
+}
+.contents{
+  height: 800px;
+  width: 800px;
+  float: left;
+  padding-left: 200px;
+  margin-top: 250px;
+}
+#wes{
+  background-image: url("Wes-Holland.JPG");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+#drew{
+  background-image: url("drew1.JPG");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  }
+#cole{
+  background-image: url("headshot1.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+#nick{
+  background-image: url("headshot2.jpg");
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+}
+.hide{
+  display: none;
+}
+.profile p{
+  background-color: black;
+  margin-top: 280px;
+  display: none;
+
+}
+@media only screen and (min-width:1500px){
+  #logo{
+    height:300px;
+    width: 300px;
+    background-image: url("IMG_1441.PNG");
+    background-size:contain;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin: 0px 800px 0px 750px;
+  }
+  nav ul li{
+    float: left;
+    padding:10px 0px 0px 15px;
+    margin: 10px 160px 5px 120px;
+
+  }
+}
+@media only screen and (max-width:980px){
+
+  #logo{
+    height:150px;
+    width: 150px;
+    background-image: url("IMG_1441.PNG");
+    background-size:contain;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin: 40px 20px 0px 135px;
+  }
+  nav ul li{
+    float: left;
+    padding:10px 0px 0px 15px;
+    margin: 10px 12px 5px 15px;
+
+  }
+  h1{
+  font-size: 30px;
+  margin: 300px 20px 0px 120px;
+}
+  iframe{
+  margin: 440px 80px 80px -300px;
+  width: 300px;
+  height: 180px;
+  float: left;
+}
+  a{
+    font-size: 12px;
+  }
+.profile{
+  height: 180px;
+  width: 140px;
+
+}
+.contents{
+  margin-left: -140px;
+  width: 450px;
+}
+.enlarge{
+  width: 300px;
+  height: 400px;
+}
+.profile p{
+  font-size: 15px;
+  margin-top: 240px;
+}
+#logo2{
+  margin-left: 130px;
+  margin-top: 30px;
+}
+}
