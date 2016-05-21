@@ -36,10 +36,8 @@ harmony:
   # Profile links, leave blank to ignore
   social: 
     github: brossetti1
-    instagram: brossetti1 
     twitter: ldstudiosatl
     facebook: LDStudiosATL
-    
   # Toggle disclaimer in footer
   show_disclaimer: true
 
