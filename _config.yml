@@ -1,10 +1,13 @@
-# Harmony Jekyll theme general configurations 
+# cofffeeandcodeguy uses Harmony Jekyll theme
+title: coffeeandcodeguy
+description: > # this means to ignore newlines until "baseurl:"
+  I code, I travel, I coffee
 
 # Base URL
-baseurl: /harmony
+baseurl: /coffeeandcodeguy
 
 # Site live URL
-url: http://gayan.me
+url: http://brossetti1.github.io
 
 # Localhost 
 # url: http://127.0.0.1:4000  
@@ -43,8 +46,7 @@ harmony:
 
 # Conversion / Build settings 
 markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
+highlighter: rouge 
 
 # Permalinks
 permalink:        pretty
