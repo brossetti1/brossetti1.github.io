@@ -41,7 +41,7 @@ body {
 
 .wc-container {
     width: 90%;
-    max-width: $M; // see breakpoints in _sass/partials/_layout.scss
+    max-width: $L; // see breakpoints in _sass/partials/_layout.scss
     margin: 0 auto;
 
     &::after { /* Clearfix */
@@ -239,6 +239,12 @@ header.main-header {
 footer.main-footer {
   background-color: $base-00;
   color: $base-07;
+  h6.footer-right-align {
+    text-align: right;
+  } 
+  h6.footer-right-align::before {
+    right: 0%;
+  }
   .column {
     float:left;
     @include column(1);
@@ -247,6 +253,9 @@ footer.main-footer {
       &.one, &.two {
         @include column(.5);
         display: block;
+      }
+      &.two {
+        float: right !important;
       }
     }
   }
@@ -284,7 +293,7 @@ footer.main-footer {
   }
 
  ul.social-media {
-  text-align:left;
+  text-align:right;
   padding: 0 0 10px 0;
   li { 
     display:inline-block;

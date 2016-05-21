@@ -7,4 +7,4 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem 'github-pages', versions['github-pages']
 gem 'rake'
 gem 'jekyll-sitemap' #Generate Sitemap.xml
-gem 'jekyll-paginate' #Adds Pagination
+gem 'jekyll-paginate' #Adds Paginationu
