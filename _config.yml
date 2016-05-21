@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I code, I travel, I coffee
 
 # Base URL
-baseurl: ""
+baseurl:
 
 # Site live URL
 url: http://brossetti1.github.io
@@ -26,8 +26,8 @@ harmony:
    https://github.com/gayanvirajith/harmony
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
+    name: Brian Rossetti
+    email: brossetti1@gmail.com
     url: http://gayanvirajith.github.io
 
   # Google Analytics key, leave blank to ignore
@@ -35,12 +35,8 @@ harmony:
 
   # Profile links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest: 
+    github: brossetti1
+    instagram: brossetti1 
   # Toggle disclaimer in footer
   show_disclaimer: true
 
@@ -49,7 +45,7 @@ markdown:    kramdown
 highlighter: rouge 
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 exclude: 
   - CNAME
@@ -59,6 +55,13 @@ exclude:
   - .gitignore
   - .sass-cache
   - Gemfile.lock
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Sass conversion configs
 sass:
