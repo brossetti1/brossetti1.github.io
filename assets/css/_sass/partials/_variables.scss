@@ -7,23 +7,29 @@ $color-1: $color-white;
 $color-2: #515151;
 
 // Color schemes for themes based on https://github.com/chriskempson/base16
-$base-00: #2b2b2b;
-$base-01: #272935;
-$base-02: #3a4055;
-$base-03: #5a647e;
-$base-04: #d4cfc9;
-$base-05: #e6e1dc;
-$base-06: #f4f1ed;
-$base-07: #f9f7f3; // Not for theme selection
-$base-08: #da4939;
-$base-09: #cc7833;
-$base-0A: #ffc66d;
-$base-0B: #a5c261;
-$base-0C: #519f50;
-$base-0D: #6d9cbe;
-$base-0E: #b6b3eb;
-$base-0F: #bc9458;
+$base-00: #2b2b2b; // BLACK
+$base-01: #272935; // LIGHTER BLACK
+$base-02: #3a4055; // GREY
+$base-03: #5a647e; // LIGHTER GREY
+$base-04: #d4cfc9; // LIGHTER GREY
+$base-05: #e6e1dc; // WHITE
+$base-06: #f4f1ed; // BRIGHTER WHITE
+$base-07: #f9f7f3; // BRIGHTER WHITE
+$base-08: #da4939; // RED
+$base-09: #cc7833; // ORANGE
+$base-0A: #ffc66d; // TAN
+$base-0B: #a5c261; // GREEN
+$base-0C: #519f50; // TEAL 
+$base-0D: #6d9cbe; // BLUE
+$base-0E: #b6b3eb; // PURPLE
+$base-0F: #bc9458; // BROWN
 
+// Coffee Pallete
+$coffee-lightest: #eac29a;
+$coffee-lighter:  #ddb893;
+$coffee-light:    #d8ab7d;
+$coffee-darker:   #bf8f5e;
+$coffee-darkest:  #a37854;
 
 
 // Fonts 

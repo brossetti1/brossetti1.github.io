@@ -163,16 +163,16 @@ a.default-anchor {
   
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  color: $base-08;
+  color: $coffee-darker;
   &:hover, &:active, &:focus {
     @include transition(border-bottom-color .2s);
-    border-bottom-color: $base-08;
+    border-bottom-color: $coffee-darker;
   }
 
 }
 
 div.default-page-content {
-  h1, h2, h3, h4, h5, h6 { color: $base-00; }
+  h1, h2, h3, h4, h5, h6 { color: $coffee-darkest; }
 }
 
 body {
@@ -212,7 +212,7 @@ header.main-header {
   ul li {       
     display: inline-block;
     position:relative;
-    color: $base-08;
+    color: $coffee-darker;
   }
 
   ul li span {
@@ -309,7 +309,8 @@ footer.main-footer {
     border-bottom-color: transparent;
 
     &:hover {
-      background-color: $base-08;
+      color: $coffee-darkest;
+      background-color: $coffee-darkest;
     }
   }
     
@@ -368,7 +369,7 @@ footer.main-footer {
     border-bottom-color: transparent;
 
     &:hover {
-      background-color: $base-08;
+      background-color: $coffee-light;
     }
 }
 
@@ -481,27 +482,31 @@ div.page-content {
 body.theme-base-01 {
   
   a {
-    @extend .default-anchor;   
+    @extend .default-anchor;
+    &:hover {
+      color: $coffee-darker;
+    }
   }
 
   footer.main-footer {
     background-color: $base-01;
     color: $base-07;
     .icon-love {
-      color: $base-08
-    }
-  }
-
-  header.main-header {
-    color: $base-01;
-    ul li { 
       color: $base-08;
     }
   }
 
-  div.page-content {
-    h1, h2, h3, h4, h5, h6 { color: $base-01; }
+  header.main-header {
+    color: $coffee-darkest;
+    ul li { 
+      color: $coffee-darker;
+    }
   }
+
+  div.page-content {
+    h1, h2, h3, h4, h5, h6 { color: $coffee-darkest; }
+  }
+
 
 
 }
@@ -558,8 +563,8 @@ code, pre {
 code {  
   padding: .25em .5em;
   font-size: 85%;
-  color: $base-08;
-  background-color: rgba($base-08, .1);
+  color: $coffee-darker;
+  background-color: rgba($coffee-darker, .1);
 }
 pre {
   display: block;
@@ -685,7 +690,7 @@ p.post-meta {
   color: #999;
 }
 .related-posts li a:hover {
-  color: #268bd2;
+  color: $coffee-darkest;
   text-decoration: none;
 }
 .related-posts li a:hover small {
@@ -741,7 +746,7 @@ p.post-meta {
     width: 100%;
   }
   .icon-love {
-    color: $base-08
+    color: $base-08;
   }
 }
 
