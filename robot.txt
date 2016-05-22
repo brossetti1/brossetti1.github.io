@@ -2,6 +2,6 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
-Sitemap: http://brossetti1.github.io/sitemap.xml
+Sitemap: http://www.coffeeandcodeguy.com/sitemap.xml
 Disallow:
 
