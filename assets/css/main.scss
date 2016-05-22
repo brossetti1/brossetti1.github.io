@@ -487,6 +487,9 @@ body.theme-base-01 {
   footer.main-footer {
     background-color: $base-01;
     color: $base-07;
+    .icon-love {
+      color: $base-08
+    }
   }
 
   header.main-header {
@@ -736,6 +739,9 @@ p.post-meta {
   .column-full {
     text-align: center;
     width: 100%;
+  }
+  .icon-love {
+    color: $base-08
   }
 }
 
