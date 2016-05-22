@@ -318,7 +318,7 @@ footer.main-footer {
     width: 32px;
     height: 32px;
     background: $base-07;
-    background-image: url("./images/socials-icons.svg");
+    background-image: url("images/socials-icons.svg");
     background-size: 224px 64px;
     border-radius: 0.25em;
     @include transition(background-color 0.2s);
@@ -378,7 +378,7 @@ footer.main-footer {
   width: 32px;
     height: 32px;
     background-color: $base-07;
-    background-image: url("./images/socials-icons.png");
+    background-image: url("images/socials-icons.png");
     background-size: 224px 64px;
     border-radius: 0.25em;
     @include transition(background-color 0.2s);
