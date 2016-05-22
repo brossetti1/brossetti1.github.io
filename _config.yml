@@ -13,25 +13,20 @@ url: 'http://www.coffeeandcodeguy.com' # the base hostname & protocol for your s
 # url: http://127.0.0.1:4000  
 
 # Harmony theme configuration. Please change accordingly.
-harmony:
+coffeeandcodeguy:
   name: Coffee and Code Guy
   # Little description about your site
-  description: An Assortment of iffy opinions, delicious coffee, and travel adventures
+  description: An assortment of iffy opinions, delicious coffee, and travel adventures
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-   Harmony is a free responsive jekyll theme by Gayan Virajith
-   and Maheshika Lakmali. Sourced on Github - 
-   https://github.com/gayanvirajith/harmony
+    A blog discussing an assortment of iffy opinions, delicious coffee, and travel adventures
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Brian Rossetti
     email: brossetti1@gmail.com
     url: http://gayanvirajith.github.io
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
 
   # Profile links, leave blank to ignore
   social: 
@@ -57,12 +52,17 @@ exclude:
   - .sass-cache
   - Gemfile.lock
 
+analytics:
+  google:
+    google_analytics_key: UA-78118172-1 # Google Analytics key, leave blank to ignore
+
 gems:
   - jekyll-sitemap
   - jekyll-paginate
 
 paginate: 10
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
+permalink: /:year/:month/:day/:title
 
 # Sass conversion configs
 sass:

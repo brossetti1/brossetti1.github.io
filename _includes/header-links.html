@@ -1,16 +1,6 @@
 <ul>
-	<li>
-		<a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a><span>/</span>
-	</li>
-	<li>
-		<a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog</a><span>/</span>
-	</li>
-	{% if site.harmony.social.github %}
-	<li>
-		<a title="{{ site.harmony.social.github }} on Github" 
-			href="https://github.com/gayanvirajith/harmony" target="_blank">
-			Download
-		</a><span>/</span>
-	</li>
-	{% endif %}
+	<li><a href="{{ '/code' | prepend: site.baseurl | prepend: site.url }}">Code</a></li><span>/</span>
+	<li><a href="{{ '/coffee' | prepend: site.baseurl | prepend: site.url }}">Coffee</a></li><span>/</span>
+	<li><a href="{{ '/me' | prepend: site.baseurl | prepend: site.url }}">Me</a></li><span>/</span>
+	<li><a href="{{ '/contact' | prepend: site.baseurl | prepend: site.url }}">Contact</a></li> 
 </ul>

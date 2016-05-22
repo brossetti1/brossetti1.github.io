@@ -1,6 +1,21 @@
 ---
 ---
 
+//CSS STRUCTURE
+
+/* -------------------------------- 
+  Primary style
+  Small Typography
+  Theme base
+  Main Header
+  Blockquote
+  Code snippets
+  Post styles
+  Related post
+  Post footer
+  Table
+----------------------------------- */
+
 // Import reset 
 @import "partials/reset";
 
@@ -196,7 +211,8 @@ header.main-header {
   color: $base-00;
   border-top: 5px $base-00 solid;
 
-  h1, h2 { text-align: center; color: inherit;}
+  h1 { text-align: center; color: inherit;}
+  h2 { text-align: center; color: $base-02 }
   a { 
     color: inherit;
     &:hover, &:active, &:focus {
