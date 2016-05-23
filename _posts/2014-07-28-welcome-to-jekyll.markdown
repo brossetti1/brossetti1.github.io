@@ -13,10 +13,75 @@ categories:
 > It takes a template directory containing raw text files in various formats, runs it through [Markdown][markdown] (or [Textile][textile]) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind [GitHub Pages][github-pages], which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
 > - jekyllrb.com
 
-{% highlight ruby %}
-	def test
-		[1,2,3].map {|p| p + 1}
-	end
+{% highlight css %}
+
+.no-svg footer.main-footer ul.social-media li a {
+  width: 32px;
+    height: 32px;
+    background-color: $base-07;
+    background-image: url("images/socials-icons.png");
+    background-size: 224px 64px;
+    border-radius: 0.25em;
+    @include transition(background-color 0.2s);
+    border-bottom-color: transparent;
+
+    &:hover {
+      background-color: $coffee-light;
+    }
+}
+
+div.page-content {
+  @extend .default-page-content;
+  min-height: initial;
+
+  @include MQ(M) {
+    min-height: 400px;
+  }
+}    
+
+div.page-content {
+  ul {       
+    padding: 0 0 1em 0;
+    li {
+      @include font-size(14px);
+      color: $color-2; 
+      line-height: 1.6;
+      background: url(./images/bullet.svg);
+      background-repeat: no-repeat;
+      background-position: 0 6px;
+      padding: 0 0 5px 15px;
+      margin-left: 0;
+    }
+    @include MQ(M){        
+      li {         
+        @include font-size(16px);  
+        line-height: 1.5;
+        background-position: 0 7px; 
+      }
+    }
+  }
+  ol { 
+    @include font-size(12px);
+    // padding-top: 1em;
+    padding-bottom: 1em;
+    list-style: decimal;
+    margin-left: 0;
+    li {
+      color: $color-2; 
+      line-height: 1.6;
+      padding: 0 0 5px 0px;
+      margin-left: 2em;
+      position:relative;
+    }
+    @include MQ(M){
+      @include font-size(16px);
+      li { 
+        line-height: 1.5;
+        background-position: 0 7px; 
+      }
+    }
+  }
+
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
