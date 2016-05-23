@@ -573,6 +573,29 @@ blockquote p:last-child {
 Code snippets
 
 --------------------------------- */
+.highlighter-rouge,
+figure.highlight {
+  margin: 40px -9999rem;
+  /* add back section padding value */
+  padding: .25rem 9999rem;
+  overflow: visible;
+}
+
+.highlighter-rouge:before,
+figure.highlight:before {
+  content: "";
+  top: 20;
+  bottom: 0;
+  position: relative;
+}
+
+.highlighter-rouge:after,
+figure.highlight:after {
+  content: "";
+  bottom: 0;
+  position: absolute;
+}
+
 code, pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
@@ -594,7 +617,7 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: $color-white;
-  border: 1px solid $base-05;
+  // border: 1px solid $base-05;
   code {
     padding: 0;
     font-size: 100%;
