@@ -262,7 +262,7 @@ header.main-header {
 }
 
 footer.main-footer {
-  background-color: $base-00;
+  background-color: $coffee-background;
   color: $base-07;
   h6.footer-right-align {
     text-align: right;
@@ -514,7 +514,7 @@ body.theme-base-01 {
   }
 
   footer.main-footer {
-    background-color: $base-01;
+    background-color: $coffee-background;
     color: $base-07;
     .icon-love {
       color: $base-08;
@@ -623,7 +623,6 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: $color-white;
   // border: 1px solid $base-05;
   code {
     padding: 0;
