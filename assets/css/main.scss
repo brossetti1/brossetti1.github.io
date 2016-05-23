@@ -43,6 +43,10 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html > * {
+  overflow-x: hidden;
+}
+
 *, *:after, *:before {
   @include box-sizing(border-box);
 }
@@ -51,6 +55,7 @@ body {
   font: {
     size: 100%;
     family: $primary-font; // variables inside partials > _variables.scss
+    overflow-x: hidden;
   }
 }
 
@@ -64,6 +69,10 @@ body {
         display: table;
         clear: both;
     }
+}
+
+.page-content.wc-container {
+  overflow-x: visible;
 }
 
 .wc-img-replace { /* replace text with a background-image */
@@ -586,14 +595,12 @@ figure.highlight:before {
   content: "";
   top: 20;
   bottom: 0;
-  position: relative;
 }
 
 .highlighter-rouge:after,
 figure.highlight:after {
   content: "";
   bottom: 0;
-  position: absolute;
 }
 
 code, pre {
